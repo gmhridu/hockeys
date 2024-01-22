@@ -24,7 +24,7 @@
   <div class="container mx-auto">
     <header>
       <!-- navbar section -->
-      <div class="navbar md:my-2">
+      <div class="navbar md:my-2 lg:px-18 lg:py-6">
         <div class="navbar-start sm:hidden flex">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
@@ -43,12 +43,12 @@
           </div>
         </div>
         <div class="navbar-start">
-          <a class="btn btn-ghost text-[#131318] -ml-20 font-extrabold text-xl lg:font-extrabold lg:text-4xl">Hockey<span
+          <a class="btn btn-ghost text-[#131318] -ml-20 font-extrabold text-xl md:-ml-3 lg:font-extrabold lg:text-4xl lg:-ml-2.5">Hockey<span
               class="text-[#FF4240] text-2xl lg:text-4xl">’</span>s</a>
         </div>
 
         <div
-          class="hidden sm:flex  list-none space-x-4 mx-40 lg:space-x-11 text-center mt-2 text-xl font-semibold text-[#424247]">
+          class="hidden sm:flex  list-none space-x-4 mx-20 lg:space-x-11 lg:mx-28 text-center mt-2 text-xl font-semibold text-[#424247]">
           <li><a href="#"><span class="text-[#FF4240]">Home</span></a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Pages</a></li>
@@ -66,6 +66,19 @@
           </button>
           <button class="btn btn-primary hover:bg-red-400 lg:text-xl lg:font-semibold text-white bg-[#FF4240] px-5">Get Ticket
           </button>
+        </div>
+      </div>
+
+      <!-- Carousel Section -->
+      <div class="container mx-auto px-4 py-2 ml-1">
+        <div class="carousel w-full lg:px-18 lg:py-6 ">
+          <div id="slide1" class="carousel-item relative w-full">
+            <img src="./images/bg.png" class="w-screen h-30vh rounded-lg"/>
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide4" class="btn btn-circle">❮</a>
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div>
         </div>
       </div>
     </header>
