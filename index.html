@@ -19,9 +19,20 @@
         font-family: 'Manrope', sans-serif;
       }
       .dashed {
-      border-bottom: dashed 1px #0D0D1233;
-      margin: 40px 18px;
-}
+        border-bottom: dashed 1px #0d0d1233;
+        margin: 40px 18px;
+      }
+
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(19, 19, 24, 0.5);
+        z-index: 1;
+        border-radius: 16px;
+      }
     </style>
   </head>
 
@@ -139,67 +150,207 @@
         </div>
       </header>
       <main class="container mx-auto">
-        <hr class="dashed">
+        <hr class="dashed" />
         <div class="container mx-auto">
-        <div class="text-center">
-          <h1 class="text-4xl font-extrabold text-[#131318] my-2">Professional Hockeys Club</h1>
-          <p class="text-sm px-2 md:text-base md:font-medium text-[#13131899]">Join the elite journey of Professional Hockeys Club, where passion meets precision.
-            <br>
-          Experience the thrill and excellence
-          on and off the ice. Unleash greatness together!</p>
+          <div class="text-center">
+            <h1 class="text-4xl font-extrabold text-[#131318] my-2">
+              Professional Hockeys Club
+            </h1>
+            <p
+              class="text-sm px-2 md:text-base md:font-medium text-[#13131899]"
+            >
+              Join the elite journey of Professional Hockeys Club, where passion
+              meets precision.
+              <br />
+              Experience the thrill and excellence on and off the ice. Unleash
+              greatness together!
+            </p>
+          </div>
+          <hr class="dashed" />
+
+          <div class="container mx-auto flex items-center justify-center">
+            <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+              <!-- Progress -1 -->
+              <div
+                class="relative flex flex-col items-center justify-center p-6 bg-white rounded-lg"
+              >
+                <img src="./images/circle-red.svg" alt="" />
+                <h2
+                  class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[162%] text-black text-2xl font-bold"
+                >
+                  87%
+                </h2>
+                <div>
+                  <h4
+                    class="text-xl text-[#131318] font-semibold text-center my-3"
+                  >
+                    Player Facility
+                  </h4>
+                  <p
+                    class="text-sm md:text-base md:font-medium text-[#13131899] text-center"
+                  >
+                    Top-tier facilities for peak performance.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Progress -2 -->
+              <div
+                class="relative flex flex-col items-center justify-center p-6 bg-white rounded-lg"
+              >
+                <img src="./images/circle-green.svg" alt="" />
+                <h2
+                  class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[162%] text-black text-2xl font-bold"
+                >
+                  95%
+                </h2>
+                <div>
+                  <h4
+                    class="text-xl text-[#131318] font-semibold text-center my-3"
+                  >
+                    Experienced Coach
+                  </h4>
+                  <p
+                    class="text-sm md:text-base md:font-medium text-[#13131899] text-center"
+                  >
+                    Top-tier facilities for peak performance.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Progress -3 -->
+              <div
+                class="relative flex flex-col items-center justify-center p-6 bg-white rounded-lg"
+              >
+                <img src="./images/circle-yellow.svg" alt="" />
+                <h2
+                  class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[162%] text-black text-2xl font-bold"
+                >
+                  90%
+                </h2>
+                <div>
+                  <h4
+                    class="text-xl text-[#131318] font-semibold text-center my-3"
+                  >
+                    Senior Player
+                  </h4>
+                  <p
+                    class="text-sm md:text-base md:font-medium text-[#13131899] text-center"
+                  >
+                    Top-tier facilities for peak performance.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Progress -4 -->
+              <div
+                class="relative flex flex-col items-center justify-center p-6 bg-white rounded-lg"
+              >
+                <img src="./images/circle-blue.svg" alt="" />
+                <h2
+                  class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[162%] text-black text-2xl font-bold"
+                >
+                  80%
+                </h2>
+                <div>
+                  <h4
+                    class="text-xl text-[#131318] font-semibold text-center my-3"
+                  >
+                    Training Ground
+                  </h4>
+                  <p
+                    class="text-sm text-center md:text-base md:font-medium text-[#13131899]"
+                  >
+                    Top-tier facilities for peak performance.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <hr class="dashed">
+        <hr class="dashed" />
 
-<div class="container mx-auto flex items-center justify-center">
-  <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
-    <!-- Progress -1 -->
-    <div class="relative flex flex-col items-center justify-center p-6 bg-white rounded-lg">
-      <img src="./images/circle-red.svg" alt="">
-      <h2 class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[162%]
-     text-black text-2xl font-bold">87%</h2>
-      <div>
-        <h4 class="text-xl text-[#131318] font-semibold text-center my-3">Player Facility</h4>
-        <p class="text-sm md:text-base md:font-medium text-[#13131899] text-center">Top-tier facilities for peak performance.</p>
-      </div>
-    </div>
+        <div>
+          <div class="text-center">
+            <h1 class="text-4xl font-extrabold text-[#131318] my-2">
+              Program Sections
+            </h1>
+            <p
+              class="text-sm px-2 md:text-base md:font-medium text-[#13131899]"
+            >
+              Join the elite journey of Professional Hockeys Club, where passion
+              meets precision.
+              <br />
+              Experience the thrill and excellence on and off the ice. Unleash
+              greatness together!
+            </p>
+          </div>
+        </div>
 
-    <!-- Progress -2 -->
-    <div class="relative flex flex-col items-center justify-center p-6 bg-white rounded-lg">
-      <img src="./images/circle-green.svg" alt="">
-      <h2 class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[162%]
-         text-black text-2xl font-bold">95%</h2>
-      <div>
-        <h4 class="text-xl text-[#131318] font-semibold text-center my-3">Experienced Coach</h4>
-        <p class="text-sm md:text-base md:font-medium text-[#13131899] text-center">Top-tier facilities for peak
-          performance.</p>
-      </div>
-    </div>
+        <hr class="dashed" />
 
-    <!-- Progress -3 -->
-    <div class="relative flex flex-col items-center justify-center p-6 bg-white rounded-lg">
-      <img src="./images/circle-yellow.svg" alt="">
-      <h2 class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[162%] text-black text-2xl font-bold">90%</h2>
-      <div>
-        <h4 class="text-xl text-[#131318] font-semibold text-center my-3">Senior Player</h4>
-        <p class="text-sm md:text-base md:font-medium text-[#13131899] text-center">Top-tier facilities for peak performance.</p>
-      </div>
-    </div>
+        <div class="container px-2 py-2 md:px-1 md:py-1 lg:mx-auto">
+          <div
+            class="flex gap-4 flex-col items-center justify-center lg:flex-row flex-1"
+          >
+            <div class="relative">
+              <div class="overlay"></div>
+              <img src="./images/2.png" alt="" />
+              <div
+                class="absolute top-[1.3rem] left-[10px] md:top-[11.25rem] md:left-[1.5rem]"
+              >
+                <h2>Junior Program</h2>
+                <p>
+                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                  elit enim <br />sagittis turpis in magna.
+                  <br />
+                  Id et sed euismod natoque amet nunc morbi nulla. Tortor congue
+                  sed et in.
+                </p>
+                <button class="btn btn-primary">Register Now!</button>
+              </div>
+            </div>
+            <div class="relative">
+              <div class="overlay"></div>
+              <img src="./images/3.png" alt="" />
+              <div
+                class="absolute top-[1.3rem] left-[10px] md:top-[11.25rem] md:left-[1.5rem]"
+              >
+                <h2>Junior Program</h2>
+                <p>
+                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                  elit enim <br />sagittis turpis in magna.
+                  <br />
+                  Id et sed euismod natoque amet nunc morbi nulla. Tortor congue
+                  sed et in.
+                </p>
+                <button class="btn btn-primary">Register Now!</button>
+              </div>
+            </div>
+          </div>
 
-    <!-- Progress -4 -->
-    <div class="relative flex flex-col items-center justify-center p-6 bg-white rounded-lg">
-      <img src="./images/circle-blue.svg" alt="">
-      <h2 class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[162%] text-black text-2xl font-bold">80%</h2>
-      <div>
-        <h4 class="text-xl text-[#131318] font-semibold text-center my-3">Training Ground</h4>
-        <p class="text-sm text-center md:text-base md:font-medium text-[#13131899]">Top-tier facilities for peak performance.</p>
-      </div>
+          <div>
+            <div class="relative md:mx-[5.7rem] lg:mx-[11.25rem] mt-[20px]">
+              <div class="overlay"></div>
+              <img class="h-[50vh]" src="./images/4.png" alt="" />
+              <div
+                class="absolute top-[1.3rem] left-[10px] md:top-[11.25rem] md:left-[1.5rem]"
+              >
+                <h2>Junior Program</h2>
+                <p>
+                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                  elit enim <br />sagittis turpis in magna.
+                  <br />
+                  Id et sed euismod natoque amet nunc morbi nulla. Tortor congue
+                  sed et in.
+                </p>
+                <button class="btn btn-primary">Register Now!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
-  </div>
-</div>
-</div> 
-<hr class="dashed">
-</main>
-</div>
 
     <footer></footer>
   </body>
