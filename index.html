@@ -1,101 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts Manrope -->
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Google Fonts Manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+    <style>
+      .font-manrope {
+        font-family: 'Manrope', sans-serif;
+      }
+      .dashed {
+      border-bottom: dashed 1px #0D0D1233;
+      margin: 40px 18px;
+}
+    </style>
+  </head>
 
-  <title>Document</title>
-  <link rel="stylesheet" href="/style.css" />
+  <body class="font-manrope">
+    <div class="container mx-auto">
+      <header>
+        <!-- navbar section -->
+        <div class="navbar md:my-2 lg:px-18 lg:py-6">
+          <div class="navbar-start sm:hidden flex">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h7"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="navbar-start">
+            <a
+              class="btn btn-ghost text-[#131318] -ml-20 font-extrabold text-xl md:-ml-3 lg:font-extrabold lg:text-4xl lg:-ml-2.5"
+              >Hockey<span class="text-[#FF4240] text-2xl lg:text-4xl">’</span
+              >s</a
+            >
+          </div>
 
-  <style>
-    .font-manrope {
-      font-family: 'Manrope', sans-serif;
-    }
-  </style>
-</head>
+          <div
+            class="hidden sm:flex list-none space-x-4 mx-20 lg:space-x-11 lg:mx-28 text-center mt-2 text-xl font-semibold text-[#424247]"
+          >
+            <li>
+              <a href="#"><span class="text-[#FF4240]">Home</span></a>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </div>
 
-<body class="font-manrope">
-  <div class="container mx-auto">
-    <header>
-      <!-- navbar section -->
-      <div class="navbar md:my-2 lg:px-18 lg:py-6">
-        <div class="navbar-start sm:hidden flex">
-          <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+          <div class="navbar-end">
+            <button class="hidden sm:btn md:btn-ghost btn-circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                />
               </svg>
-            </div>
-            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-              <li><a>Home</a></li>
-              <li><a>About</a></li>
-              <li><a>Pages</a></li>
-              <li><a>Blog</a></li>
-              <li><a>Contact</a></li>
-            </ul>
+            </button>
+            <button
+              class="btn btn-primary hover:bg-red-400 lg:text-xl lg:font-semibold text-white bg-[#FF4240] px-5"
+            >
+              Get Ticket
+            </button>
           </div>
         </div>
-        <div class="navbar-start">
-          <a class="btn btn-ghost text-[#131318] -ml-20 font-extrabold text-xl md:-ml-3 lg:font-extrabold lg:text-4xl lg:-ml-2.5">Hockey<span
-              class="text-[#FF4240] text-2xl lg:text-4xl">’</span>s</a>
-        </div>
 
-        <div
-          class="hidden sm:flex  list-none space-x-4 mx-20 lg:space-x-11 lg:mx-28 text-center mt-2 text-xl font-semibold text-[#424247]">
-          <li><a href="#"><span class="text-[#FF4240]">Home</span></a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Pages</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
-        </div>
-
-        <div class="navbar-end">
-          <button class="hidden sm:btn md:btn-ghost btn-circle">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-              stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-            </svg>
-          </button>
-          <button class="btn btn-primary hover:bg-red-400 lg:text-xl lg:font-semibold text-white bg-[#FF4240] px-5">Get Ticket
-          </button>
-        </div>
-      </div>
-
-      <!-- Carousel Section -->
-      <div class="container mx-auto px-4 py-2 ml-1">
-        <div class="carousel w-full lg:px-18 lg:py-6 ">
-          <div id="slide1" class="carousel-item relative w-full grid grid-cols-1 gap-3">
-            <img src="./images/bg.png" class="w-full h-[50vh] rounded-lg"/>
-            <div class="absolute flex gap-2 transform -translate-y-1/5 left-2 top-[45%] md:left-[20rem] md:top-[25rem]  lg:left-[2.5rem] lg:right-10 lg:top-3/4">
-              <a href="#slide4" class="btn btn-circle">❮</a>
-              <a href="#slide2" class="btn btn-circle">❯</a>
-            </div>
-            <!-- meet all heros -->
-            <div class=" bg-[#131318] rounded-lg lg:absolute p-5 lg:p-8 lg:top-[19rem] lg:left-[50rem]">
-              <h2 class="text-white text-2xl font-extrabold mb-3">Meet all the heroes from the field</h2>
-              <p class="text-[#FFFFFF99] text-base font-medium">Discover the extraordinary heroes in various fields, showcasing talent, innovation,
-                <br>
-                 and
-                dedication. Join us in
-                celebrating their remarkable contributions to society.</p>
+        <!-- Carousel Section -->
+        <div class="container mx-auto px-4 py-2 ml-1">
+          <div class="carousel w-full lg:px-18 lg:py-6">
+            <div
+              id="slide1"
+              class="carousel-item relative w-full grid grid-cols-1 gap-3"
+            >
+              <img src="./images/bg.png" class="w-full h-[50vh] rounded-lg" />
+              <div
+                class="absolute flex gap-2 transform -translate-y-1/5 left-2 top-[45%] md:left-[20rem] md:top-[25rem] lg:left-[2.5rem] lg:right-10 lg:top-3/4"
+              >
+                <a href="#slide4" class="btn btn-circle">❮</a>
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+              <!-- meet all heros -->
+              <div
+                class="bg-[#131318] rounded-lg lg:absolute p-5 lg:p-8 lg:top-[19rem] lg:left-[50rem]"
+              >
+                <h2 class="text-white text-2xl font-extrabold mb-3">
+                  Meet all the heroes from the field
+                </h2>
+                <p class="text-[#FFFFFF99] text-base font-medium">
+                  Discover the extraordinary heroes in various fields,
+                  showcasing talent, innovation,
+                  <br />
+                  and dedication. Join us in celebrating their remarkable
+                  contributions to society.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </header>
+      </header>
+      <main class="container mx-auto">
+        <hr class="dashed">
+        <div class="container mx-auto">
+        <div class="text-center">
+          <h1 class="text-4xl font-extrabold text-[#131318] my-2">Professional Hockeys Club</h1>
+          <p class="text-sm px-2 md:text-base md:font-medium text-[#13131899]">Join the elite journey of Professional Hockeys Club, where passion meets precision.
+            <br>
+          Experience the thrill and excellence
+          on and off the ice. Unleash greatness together!</p>
+        </div>
+        <hr class="dashed">
 
-    <main></main>
-  </div>
+        <div>
+          <div></div>
+        </div>
 
-  <footer></footer>
-</body>
+          </div>
 
+        </div>
+      </main>
+    </div>
+
+    <footer></footer>
+  </body>
 </html>
