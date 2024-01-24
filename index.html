@@ -62,13 +62,13 @@
               </div>
               <ul
                 tabindex="0"
-                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                class="menu menu-sm  dropdown-content mt-3 z-[1] p-2 shadow text-base font-medium bg-[#F5F5F5] rounded-box w-52"
               >
-                <li><a>Home</a></li>
-                <li><a>About</a></li>
-                <li><a>Pages</a></li>
-                <li><a>Blog</a></li>
-                <li><a>Contact</a></li>
+                <li class="hover:bg-slate-400 hover:text-blue-100 rounded-md cursor-pointer"><a>Home</a></li>
+                <li class="hover:bg-slate-400 hover:text-blue-100 rounded-md cursor-pointer"><a>About</a></li>
+                <li class="hover:bg-slate-400  hover:text-blue-100 rounded-md cursor-pointer"><a>Pages</a></li>
+                <li class="hover:bg-slate-400 hover:text-blue-100 rounded-md cursor-pointer"><a>Blog</a></li>
+                <li class="hover:bg-slate-400 hover:text-blue-100 rounded-md cursor-pointer"><a>Contact</a></li>
               </ul>
             </div>
           </div>
@@ -127,7 +127,7 @@
             >
               <img src="./images/bg.png" class="w-full h-[50vh] rounded-lg" />
               <div
-                class="absolute flex gap-2 transform -translate-y-1/5 left-2 top-[45%] md:left-[20rem] md:top-[25rem] lg:left-[2.5rem] lg:right-10 lg:top-3/4"
+                class="absolute flex gap-2 transform -translate-y-1/5 left-[7.5rem] top-[45%] md:left-[20rem] md:top-[25rem] lg:left-[2.5rem] lg:right-10 lg:top-3/4"
               >
                 <a href="#slide4" class="btn btn-circle bg-black text-white"
                   >❮</a
@@ -160,7 +160,7 @@
             >
               <img src="./images/4.png" class="w-full h-[50vh] rounded-lg" />
               <div
-                class="absolute flex gap-2 transform -translate-y-1/5 left-2 top-[45%] md:left-[20rem] md:top-[25rem] lg:left-[2.5rem] lg:right-10 lg:top-3/4"
+                class="absolute flex gap-2 transform -translate-y-1/5 left-[7.5rem] top-[45%] md:left-[20rem] md:top-[25rem] lg:left-[2.5rem] lg:right-10 lg:top-3/4"
               >
                 <a href="#slide1" class="btn btn-circle bg-black text-white"
                   >❮</a
@@ -334,32 +334,27 @@
           <div
             class="flex gap-4 flex-col items-center justify-center lg:flex-row flex-1"
           >
-            <div class="relative">
-              <div class="overlay"></div>
-              <img class="w-full" src="./images/2.png" alt="" />
-
-              <div
-                class="absolute space-x-2 space-y-2 top-[1.3rem] left-[10px] md:top-[11.25rem] md:left-[1.5rem]"
-              >
-                <h2 class="text-2xl font-extrabold mx-1 text-[#FFF]">
-                  Junior Program
-                </h2>
-                <p class="text-base font-medium text-white">
-                  Fostering young talents through tailored training
-                  <br />
-                  and mentorship programs.
-                </p>
-                <button
-                  class="btn btn-primary hover:bg-red-400 border-none lg:text-xl lg:font-semibold text-white bg-[#FF4240] px-5"
-                >
-                  Register Now!
-                </button>
-              </div>
+          <div class="relative">
+            <div class="mix-blend-overlay bg-opacity-40"></div>
+            <img class="w-full" src="./images/2.png" alt="" />
+          
+            <div class="absolute space-x-2 space-y-2 top-[1.3rem] left-[10px] md:top-[11.25rem] md:left-[1.5rem]">
+              <h2 class="text-2xl font-extrabold mx-1 text-white">Junior Program</h2>
+              <p class="text-base font-medium text-white">
+                Fostering young talents through tailored training
+                <br />
+                and mentorship programs.
+              </p>
+              <button
+                class="btn btn-primary hover:bg-red-400 border-none lg:text-xl lg:font-semibold text-white bg-[#FF4240] px-5">
+                Register Now!
+              </button>
             </div>
+          </div>
 
             <!-- Program section-2 -->
             <div class="relative">
-              <div class="overlay"></div>
+              <div class="mix-blend-overlay bg-opacity-40"></div>
               <img class="w-full" src="./images/3.png" alt="" />
               <div
                 class="absolute space-x-2 space-y-2 top-[1.3rem] left-[10px] md:top-[11.25rem] md:left-[1.5rem]"
@@ -384,7 +379,7 @@
           <!-- Program section-3 -->
           <div>
             <div class="relative md:mx-[5.7rem] lg:mx-[11.25rem] mt-[20px]">
-              <div class="overlay"></div>
+              <div class="mix-blend-overlay bg-opacity-40"></div>
               <img
                 class="h-[30vh] w-full md:h-[35vh] lg:h-[38vh]"
                 src="./images/4.png"
@@ -914,8 +909,8 @@
     <footer>
       <div class="mx-auto overflow-hidden">
         <footer class="footer p-10 bg-[#131318] text-base-content text-center items-center  lg:px-[345px] lg:py-[70px] lg:gap-[148px]">
-          <aside>
-            <h2 class="text-white text-3xl font-extrabold my-3">Get In Touch</h2>
+          <aside class="mx-[54px]">
+            <h2 class= "text-white text-3xl font-extrabold my-3">Get In Touch</h2>
 
             <p class="text-base font-medium text-[#ffffff99] my-2">
               Hockey's Ltd. Providing reliable
